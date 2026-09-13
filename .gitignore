@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+sar-drone-env/
+
+# Generated logs and outputs (regenerable, not source)
+*.csv
+*.png
+*.log
+
+# PX4 build artifacts (if PX4-Autopilot is ever nested inside this repo)
+PX4-Autopilot/build/
+PX4-Autopilot/.venv/
+
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# CAD working files (large binary, often better as Git LFS or excluded entirely)
+*.f3d
+*.f3z
