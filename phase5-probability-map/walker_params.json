@@ -1,0 +1,16 @@
+{
+  "_WARNING": "ALL VALUES ASSUMED (author's modelling choices), not published data. Direction of trail/water behaviour is loosely supported by lost-person literature; magnitudes are not.",
+  "n_agents": 20000,
+  "dt_s": 60,
+  "duration_h": 8,
+  "speed_mps": 0.6,
+  "speed_sd_mps": 0.2,
+  "turn_sd_deg": 35,
+  "start_sigma_m": 20,
+  "trail_attract_radius_m": 80,
+  "trail_attract_prob": 0.35,
+  "on_trail_radius_m": 25,
+  "trail_follow_prob": 0.7,
+  "stop_prob_per_step": 0.002,
+  "smoothing_cells": 1.0
+}

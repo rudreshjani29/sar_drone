@@ -1,0 +1,19 @@
+{
+  "_WARNING": "ILLUSTRATIVE PARAMETERS. The hiker-specific ISRID/Koester percentile table was not available to the author. Replace with real values before drawing any conclusions.",
+  "distance_model": {
+    "type": "rayleigh_2d",
+    "anchor_percentile": 0.75,
+    "anchor_distance_km": 2.0,
+    "provenance": "Sava et al. 2015 (Evaluating Lost Person Behavior Models) quotes ISRID 'temperate flat' 75% within 2 km. Not hiker-specific.",
+    "cross_check": "Mitchell 1984 via Koester/BSAR: 66% of hikers found within 2 miles (3.2 km). Different source and category, so it disagrees with the anchor; shows real spread."
+  },
+  "trail_model": {
+    "weight": 3.0,
+    "corridor_sigma_m": 100.0,
+    "provenance": "ASSUMED. Direction supported by Mitchell 1984 (75% of hikers followed a trail or drainage at some point while lost). Magnitude is a modelling choice, not published data."
+  },
+  "water_model": {
+    "probability_inside_water": 0.0,
+    "provenance": "ASSUMED: subject is not in open water."
+  }
+}
